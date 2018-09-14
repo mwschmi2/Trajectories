@@ -10,8 +10,10 @@ import Foundation
 
 class GravityObject : GameObject {
     var mass = 0.0;
+    var fixed = false;
     
-    init(startPoint : Vector2D, startVelocity : Vector2D, mass : Double){
+    init(startPoint : Vector2D, startVelocity : Vector2D, mass : Double, fixed : Bool){
         super.init(startPoint: startPoint, startVelocity: startVelocity);
         self.mass = mass;
+        self.fixed = fixed;
     }}

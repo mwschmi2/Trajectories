@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED31EFBA214B5CD200060B2F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED31EFB9214B5CD200060B2F /* GameScene.swift */; };
 		EDB459A62148C68800B8E2D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB459A52148C68800B8E2D5 /* AppDelegate.swift */; };
 		EDB459A82148C68800B8E2D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB459A72148C68800B8E2D5 /* ViewController.swift */; };
 		EDB459AB2148C68800B8E2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB459A92148C68800B8E2D5 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED31EFB9214B5CD200060B2F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		EDB459A22148C68800B8E2D5 /* Trajectories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trajectories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB459A52148C68800B8E2D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDB459A72148C68800B8E2D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				EDB459A52148C68800B8E2D5 /* AppDelegate.swift */,
 				EDB459A72148C68800B8E2D5 /* ViewController.swift */,
+				ED31EFB9214B5CD200060B2F /* GameScene.swift */,
 				EDB459A92148C68800B8E2D5 /* Main.storyboard */,
 				EDB459AC2148C68900B8E2D5 /* Assets.xcassets */,
 				EDB459AE2148C68900B8E2D5 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED31EFBA214B5CD200060B2F /* GameScene.swift in Sources */,
 				EDB459A82148C68800B8E2D5 /* ViewController.swift in Sources */,
 				EDB459A62148C68800B8E2D5 /* AppDelegate.swift in Sources */,
 				EDB459B82148CB0D00B8E2D5 /* GameObject.swift in Sources */,
