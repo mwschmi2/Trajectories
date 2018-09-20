@@ -13,8 +13,7 @@
 		EDB459AB2148C68800B8E2D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB459A92148C68800B8E2D5 /* Main.storyboard */; };
 		EDB459AD2148C68900B8E2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB459AC2148C68900B8E2D5 /* Assets.xcassets */; };
 		EDB459B02148C68900B8E2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB459AE2148C68900B8E2D5 /* LaunchScreen.storyboard */; };
-		EDB459B82148CB0D00B8E2D5 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB459B72148CB0D00B8E2D5 /* GameObject.swift */; };
-		EDB459BA2148CC6700B8E2D5 /* GravityObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB459B92148CC6700B8E2D5 /* GravityObject.swift */; };
+		EDB459B82148CB0D00B8E2D5 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB459B72148CB0D00B8E2D5 /* Vector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +25,7 @@
 		EDB459AC2148C68900B8E2D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDB459AF2148C68900B8E2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDB459B12148C68900B8E2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDB459B72148CB0D00B8E2D5 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
-		EDB459B92148CC6700B8E2D5 /* GravityObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityObject.swift; sourceTree = "<group>"; };
+		EDB459B72148CB0D00B8E2D5 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +65,7 @@
 				EDB459AC2148C68900B8E2D5 /* Assets.xcassets */,
 				EDB459AE2148C68900B8E2D5 /* LaunchScreen.storyboard */,
 				EDB459B12148C68900B8E2D5 /* Info.plist */,
-				EDB459B72148CB0D00B8E2D5 /* GameObject.swift */,
-				EDB459B92148CC6700B8E2D5 /* GravityObject.swift */,
+				EDB459B72148CB0D00B8E2D5 /* Vector.swift */,
 			);
 			path = Trajectories;
 			sourceTree = "<group>";
@@ -105,6 +102,7 @@
 				TargetAttributes = {
 					EDB459A12148C68800B8E2D5 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -147,8 +145,7 @@
 				ED31EFBA214B5CD200060B2F /* GameScene.swift in Sources */,
 				EDB459A82148C68800B8E2D5 /* ViewController.swift in Sources */,
 				EDB459A62148C68800B8E2D5 /* AppDelegate.swift in Sources */,
-				EDB459B82148CB0D00B8E2D5 /* GameObject.swift in Sources */,
-				EDB459BA2148CC6700B8E2D5 /* GravityObject.swift in Sources */,
+				EDB459B82148CB0D00B8E2D5 /* Vector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2UW47HS8X;
 				INFOPLIST_FILE = Trajectories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,7 +298,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.markschmidt.Trajectories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -310,6 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2UW47HS8X;
 				INFOPLIST_FILE = Trajectories/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -317,7 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.markschmidt.Trajectories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
