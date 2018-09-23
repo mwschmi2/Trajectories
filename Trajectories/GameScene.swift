@@ -10,38 +10,62 @@ import Foundation
 import SpriteKit
 let playerRect = CGSize(width: 50, height: 50)
 
-
+//class Player : GameObject {
+//    var Vector2D position
+//    var Vector2D velocity
+//    // shape associated with it
+//}
+//
+//class GameObject {
+//
+//    var Double mass
+//    var Vector2D position
+//
+//}
+//
+//class Body {
+//    var Double mass
+//    var position
+//
+//    // position function
+//}
 
 class GameScene : SKScene {
         //TODO create a better physics system and decouple it from the view
     let p2 = SKShapeNode(circleOfRadius: 50)
     
     let player = SKShapeNode(rectOf: playerRect, cornerRadius: 5)
-    var playerVelocity = Vector2D(0, 7e-4)
-    let G = 5e-5
+    //var playerVelocity = Vector2D(0, 7e-4)
+    var playerVelocity = Vector2D(0, 6e-5)
+
+    //let G = 5e-5
+    let G = 5e-7
+
     var lastPosition = CGPoint()
     
     
     
+    
     override func didMove(to view: SKView) {
-        
-        
         p2.position = CGPoint(x: size.width * 0.5, y: size.height * 0.5)
-        lastPosition = p2.position
         player.position = CGPoint(x: size.width * 0.8, y: size.height * 0.5)
+        lastPosition = player.position
 
         self.addChild(p2)
         self.addChild(player)
         
         print("\(player.position), \(playerVelocity)")
-
-        
     }
     
-    var arrowNode : SKShapeNode?
+    
+
+    
+    
     override func update(_ currentTime: TimeInterval) {
+        
+        
         //TODO: put this in a for loop and run it for all objects in the scene
-        //Not sure entirely how it will work with more objects, but should be very similar (add up accelerations/ change in velocities?
+        //Not sure entirely how it will work with more objects, but should be very similar (add up accelerations for each body, then compute v_f and newPosition the same way
         //Probably best to keep puzzle objects and planets on fixed paths--just compute the trajectory for the player
         
         
