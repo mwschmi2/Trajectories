@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+let G = 5e-8
 let DEFAULT_WIDTH = 375
 let DEFAULT_HEIGHT = 667
 
@@ -38,9 +38,10 @@ class PhysicsSystem {
         //TODO: add moving planets
         
         player?.updatePosition(objects: objects!, time: time)
+        print("\(String(describing: player?.position)), \(String(describing: player?.velocity))")
     }
     
     func calculateScale(viewWidth : Double) -> Double {
-        return size.x / Double(viewWidth)
+        return Double(viewWidth) / size.x 
     }
 }

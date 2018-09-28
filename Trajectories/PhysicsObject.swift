@@ -8,7 +8,6 @@
 
 import Foundation
 
-let G = 5e-7
 
 
 class PhysicsObject {
