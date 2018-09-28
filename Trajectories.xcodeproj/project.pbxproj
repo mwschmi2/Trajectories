@@ -16,6 +16,8 @@
 		EDB459AD2148C68900B8E2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDB459AC2148C68900B8E2D5 /* Assets.xcassets */; };
 		EDB459B02148C68900B8E2D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDB459AE2148C68900B8E2D5 /* LaunchScreen.storyboard */; };
 		EDB459B82148CB0D00B8E2D5 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB459B72148CB0D00B8E2D5 /* Vector.swift */; };
+		EDCA9A9B215EB54800B1896C /* PhysicsSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA9A9A215EB54800B1896C /* PhysicsSystem.swift */; };
+		EDCA9A9D215EB78100B1896C /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCA9A9C215EB78100B1896C /* Planet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		EDB459AF2148C68900B8E2D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDB459B12148C68900B8E2D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDB459B72148CB0D00B8E2D5 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		EDCA9A9A215EB54800B1896C /* PhysicsSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsSystem.swift; sourceTree = "<group>"; };
+		EDCA9A9C215EB78100B1896C /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				ED31EFB9214B5CD200060B2F /* GameScene.swift */,
 				ED3BE7CA2157252C00509836 /* Player.swift */,
 				ED3BE7CC2157254300509836 /* PhysicsObject.swift */,
+				EDCA9A9C215EB78100B1896C /* Planet.swift */,
+				EDCA9A9A215EB54800B1896C /* PhysicsSystem.swift */,
 				EDB459A92148C68800B8E2D5 /* Main.storyboard */,
 				EDB459AC2148C68900B8E2D5 /* Assets.xcassets */,
 				EDB459AE2148C68900B8E2D5 /* LaunchScreen.storyboard */,
@@ -151,7 +157,9 @@
 				ED31EFBA214B5CD200060B2F /* GameScene.swift in Sources */,
 				EDB459A82148C68800B8E2D5 /* ViewController.swift in Sources */,
 				EDB459A62148C68800B8E2D5 /* AppDelegate.swift in Sources */,
+				EDCA9A9D215EB78100B1896C /* Planet.swift in Sources */,
 				ED3BE7CB2157252C00509836 /* Player.swift in Sources */,
+				EDCA9A9B215EB54800B1896C /* PhysicsSystem.swift in Sources */,
 				ED3BE7CD2157254300509836 /* PhysicsObject.swift in Sources */,
 				EDB459B82148CB0D00B8E2D5 /* Vector.swift in Sources */,
 			);

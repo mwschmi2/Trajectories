@@ -41,7 +41,6 @@ struct Vector2D {
     func CG() -> CGPoint {
         return CGPoint(x: x, y: y)
     }
-    
 }
 
 //We probably don't need all these vector operations, but they are nice to have!
